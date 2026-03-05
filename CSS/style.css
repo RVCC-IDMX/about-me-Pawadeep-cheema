@@ -5,12 +5,14 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+    text-align:center;
+}
+h1 {
     font-size: 40pt;
 }
 header {
     text-align: center;
 }
-
 #hero, footer {
     text-align: center;
     background-color: #A6E64C;
@@ -26,3 +28,6 @@ header {
 #bio {
     text-align:center;
 }
+#hobbies ul li:nth-child(odd){
+    color: magenta;
+    }
