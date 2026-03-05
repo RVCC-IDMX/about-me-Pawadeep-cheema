@@ -31,3 +31,13 @@ header {
 #hobbies ul li:nth-child(odd){
     color: magenta;
     }
+#gallery {
+    border: 3px solid #E50109;
+}
+#gallery img {
+    width: 100%;
+    height: auto;
+}
+#gallery figure {
+    text-align: center;
+}
