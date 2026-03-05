@@ -33,11 +33,34 @@ header {
     }
 #gallery {
     border: 3px solid #E50109;
+    margin-bottom: 2rem;
 }
 #gallery img {
     width: 100%;
-    height: auto;
 }
 #gallery figure {
     text-align: center;
+}
+/*literature section*/
+#lit {
+    border: 3px solid #E50109;
+    margin-bottom: 2rem;
+}
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+#lit div p {
+    padding: 0.3rem;
+    clear:both;
+}
+
+/*Dropcap*/
+#lit div p:first-child:first-letter {
+    color:#E50109;
+    float: left;
+    font-size: 3rem;
+    line-height: 1;
+    padding-right: 0.1rem;
 }
