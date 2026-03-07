@@ -1,5 +1,5 @@
 body {
-    background-color:#E3C119;
+    background-color:#f6ecb9;
     color:#130F8F;
     font-family:noto-serif, serif;
 }
@@ -17,9 +17,9 @@ header {
 /* hero section*/
 #hero, footer {
     text-align: center;
-    background-color: #A6E64C;
+    background-color: #d5f3ac;
     padding: 10px;
-    color: #E50109;
+    color: #ba0309;
     border: 2px solid #E50109;
 }
 #hero img {
