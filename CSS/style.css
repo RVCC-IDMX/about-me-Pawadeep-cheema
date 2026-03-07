@@ -8,11 +8,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align:center;
 }
 h1 {
-    font-size: 40pt;
+    font-size: 50pt;
 }
 header {
     text-align: center;
 }
+
+/* hero section*/
 #hero, footer {
     text-align: center;
     background-color: #A6E64C;
@@ -25,22 +27,32 @@ header {
     height: 200px;
     border-radius: 50%;
 }
+
+/*bio section */
 #bio {
     text-align:center;
 }
+
+/*hobbies section */
 #hobbies ul li:nth-child(odd){
     color: magenta;
     }
+
+/*gallery section */
 #gallery {
     border: 3px solid #E50109;
     margin-bottom: 2rem;
 }
 #gallery img {
-    width: 100%;
+    width: 640px;
+    height: 600px;
+    margin-left:64px;
+    margin-right: 64px;
 }
 #gallery figure {
     text-align: center;
 }
+
 /*literature section*/
 #lit {
     border: 3px solid #E50109;
@@ -56,7 +68,7 @@ header {
     clear:both;
 }
 
-/*Dropcap*/
+/*Dropcap section*/
 #lit div p:first-child:first-letter {
     color:#E50109;
     float: left;
