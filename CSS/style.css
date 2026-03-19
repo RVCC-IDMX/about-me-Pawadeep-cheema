@@ -51,8 +51,8 @@ header {
     margin-bottom: 2rem;
 }
 #gallery img {
-    margin-left:10px;
-    margin-right: 10px;
+    margin-left:2px;
+    margin-right: 2px;
 }
 #gallery figure {
     text-align: center;
