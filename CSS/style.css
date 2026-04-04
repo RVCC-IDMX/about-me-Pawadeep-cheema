@@ -1,5 +1,5 @@
 body {
-    background-color:#f6ecb9;
+    background-color:#f5edc8;
     color:#130F8F;
     font-family:noto-serif, serif;
 }
@@ -20,10 +20,10 @@ header {
 /* hero section*/
 #hero, footer {
     text-align: center;
-    background-color: #d5f3ac;
+    background-color: #d9f3b6;
     padding: 10px;
     color: #ba0309;
-    border: 2px solid #E50109;
+    border: 2px solid #014411;
 }
 #hero img {
     width: 200px;
@@ -57,6 +57,18 @@ header {
 #gallery figure {
     text-align: center;
 }
+
+/*video section */
+iframe {
+        aspect-ratio: ;16 / 9;
+        width: 80%;
+        height: 400px;
+        border: 3px solid #E50109;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        margin: 20px auto;
+        display: block;
+    }
 
 /*literature section*/
 #lit {
