@@ -94,6 +94,55 @@ iframe {
     padding-right: 0.1rem;
 }
 
+/*formElements*/
+
+#formElements {
+    display:grid;
+    row-gap:.5em;
+}
+
+#contact {
+    padding:1rem;
+    max-width:600px;
+    margin:2rem auto;
+}
+
+fieldset{
+    border: 2px solid #E50109;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-radius:2rem;
+}
+
+legend{
+    background-color: #E50109;
+    color:white;
+    padding: 0.5em;
+}
+
+#contact input, #contact text area, #contact button{
+padding: .5em;
+font-size:1rem;
+}
+
+#contact ul{
+    list-style:none;
+    padding:0;
+}
+
+#contact li{
+    margin: 1rem;
+}
+
+#contact button{
+    background-color: #E50109;
+    color:white;
+    border:1px solid green;
+    max-width:400px;
+    width:50%;
+    justify-self:center;
+}
+
 /* tablet size  */
 @media screen and (min-width: 60em) {
     figure {
