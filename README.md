@@ -1,7 +1,7 @@
 # About Me
 
 Hi! My name is Pawandeep Kaur, I am currently learning web development. This repository is part of my coursework and personal proctice where I build and improve my skills step by step.
-I am passionate about creating simple, clean, and user-friendly websites. I enjoy elarning new technologies and applying them in real projects.
+I am passionate about creating simple, clean, and user-friendly websites. I enjoy elarning new technologies and applying them in real projects. I designed and developed "animated button" with a glowing hover effect and a 3d press animation using HTML and CSS.
 
 Course Name: Web Development
 
@@ -10,6 +10,8 @@ Focus Areas:
 - CSS
 - Basic GitHub Usage
 - Responsive Design
+- Neon glow effect using CSS shadows
+- Realistic 3D press effect
 
 Netlify Status Badge
 
@@ -23,6 +25,9 @@ This repository include:
 Skills I am learning:
 - Structuring web pages using HTML
 - Styling with CSS (layouts, colors, fonts, images, menu bars)
+- CSS box-shadow and text-shadow
+- CSS transition for smooth animations
+- transform properties for 3D effects
 - Version control using GitHub and Netlify
 - Writing clean and readable code
 
