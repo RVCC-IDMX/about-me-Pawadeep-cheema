@@ -10,6 +10,7 @@ Focus Areas:
 - CSS
 - Basic GitHub Usage
 - Responsive Design
+- Hover effect on images
 - Neon glow effect using CSS shadows
 - Realistic 3D press effect
 
@@ -25,6 +26,7 @@ This repository include:
 Skills I am learning:
 - Structuring web pages using HTML
 - Styling with CSS (layouts, colors, fonts, images, menu bars)
+- Hover effect on images
 - CSS box-shadow and text-shadow
 - CSS transition for smooth animations
 - transform properties for 3D effects
@@ -49,6 +51,11 @@ Folder Structure:
 - nav.css
 - img
 - README.md
+
+Citation sources:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover
+https://www.w3schools.com/html/html_css.asp
+https://dev.to/nickbenksim/style-queries-in-css-how-to-style-elements-based-on-the-styles-of-the-parent-container-3fpp
 
 Contact:
 
