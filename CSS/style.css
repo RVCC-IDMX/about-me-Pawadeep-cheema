@@ -53,6 +53,9 @@ header {
 #gallery img {
     margin-left:2px;
     margin-right: 2px;
+    max-width: 100%;
+  height: auto;
+  display: block;
 }
 #gallery figure {
     text-align: center;
@@ -141,6 +144,60 @@ font-size:1rem;
     max-width:400px;
     width:50%;
     justify-self:center;
+}
+
+/*format button*/
+
+#a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin: 2rem 0;
+}
+
+/* main button */
+.button{
+    position: relative;
+    z-index: 2;
+    font-weight:600;
+    font-size: 2rem;
+    border-radius: 2em;
+    padding: 1rem 3rem;
+    background: linear-gradient(20deg, rgba(241, 76, 202) 0%, rgba(70, 91, 245) 100%);
+    color: white;
+    backdrop-filter: blur(10px);
+    transform-style: preserve-3d;
+    transition: 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* gradient background for button */
+.button-gradient{
+    position:absolute;
+    inset: 0;
+     border-radius: 2em;
+    background: linear-gradient(120deg, rgba(241, 76, 202, 1), rgba(70, 91, 245,1), rgba(241, 76, 202, 1));
+    z-index:1;
+    box-shadow: 0 0 25px rgba(241, 76, 202),
+                0 0 25px rgba(70, 91, 245);
+    background-size: 300% 300%;
+    animation: neonMove 4s linear infinite;
+    transition: box-shadow 0.25s ease;
+}
+
+/* hover effect for button */
+.button:hover{
+    transform: translateY(-4px);
+}
+
+/*click 3D down effect*/
+.button:active{
+    transform:translateY(3px) scale(0.97);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+.button:hover + .button-gradient {
+    box-shadow: 0 0 50px rgba(241, 76, 202),
+                0 0 50px rgba(70, 91, 245);
 }
 
 /* tablet size  */
